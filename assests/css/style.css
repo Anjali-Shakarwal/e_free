@@ -261,6 +261,10 @@ footer ul li a {
     grid-column: 2/4;
     grid-row: 3/4;
 }
+.shadow_box{
+    background: #FFFFFF;
+        box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.05);
+}
 
 @media(max-width:768px) {
     grid-container {
@@ -324,7 +328,9 @@ footer ul li a {
         width: 52px;
         height: 40px;
     }
-
+.mt_15{
+    margin-top: 15px;
+}
 }
 
 .fc_white {
@@ -337,6 +343,9 @@ footer ul li a {
     padding: 11px 28px;
     margin-right: 7px;
     white-space: nowrap;
+}
+.text_overflow{
+    text-overflow: ellipsis !important;
 }
 
 .show {
@@ -353,6 +362,7 @@ footer ul li a {
     border: 1px solid #9CA1BE;
     border: none;
     text-overflow: ellipsis;
+    outline: none;
 }
 
 .mw-4ch {
